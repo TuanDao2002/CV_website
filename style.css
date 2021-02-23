@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-    padding: 15px 10px;
+    padding: 20px 10px;
     margin-right: 35%;
 }
 
@@ -33,18 +33,23 @@ img {
 }
 
 .topnav-right a {
+    width: 100px;
     font-family: sans-serif;
     font-weight: 700;
     color: #ffe3d8;
-    text-align: left;
-    padding: 36px 20px;
+    text-align: center;
+    padding: 40px 20px;
     text-decoration: none;
     font-size: 17px;
+    border-radius: 0%;
 }
 
 .topnav-right a:hover, a.active{
+    width: 124px;
     background-color: #03506f;
     color: #bbbbbb;
+    font-weight: 900;
+    padding: 40px 8px;
 }
 
 
