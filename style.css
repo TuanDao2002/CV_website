@@ -1,27 +1,47 @@
+body {
+    margin: 0;
+}
+
+.header {
+    top: 0;
+    background-color: #0a043c;
+}
+
+
 .topnav {
     width: 100%;
     background-color: #0a043c;
     overflow: hidden;
     position: fixed;
-    z-index: 2;
+    display: flex;
+}
+
+.logo {
+    padding: 10px;
+    margin-right: 35%;
 }
 
 img {
-    padding: 7px;
-    float: left;
-    border-radius: 10%;
+    border-radius: 100%;
+}
+
+.topnav-right { 
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+
 }
 
 .topnav a {
+    height: fit-content;
     font-family: sans-serif;
     font-weight: 700;
     color: #ffe3d8;
-    float: right;
-    text-align: center;
-    padding: 20px 25px;
+    text-align: left;
+    padding: 25px 25px;
     text-decoration: none;
     font-size: 17px;
-    position: relative;
 }
 
 .topnav a:hover{
