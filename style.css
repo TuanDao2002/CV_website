@@ -49,4 +49,8 @@ img {
     color: #bbbbbb;
 }
 
+.topnav-right a:visited{
+    background-color: #03506f;
+}
+
 
