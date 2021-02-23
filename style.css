@@ -44,7 +44,7 @@ img {
     font-size: 17px;
 }
 
-.topnav-right a:hover, a:visited{
+.topnav-right a:hover{
     background-color: #03506f;
     color: #bbbbbb;
 }
