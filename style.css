@@ -60,7 +60,7 @@ nav {
     border-radius: 0%;
 }
 
-.topnav-right a:hover, a.active{
+.topnav-right a:hover{
     width: 124px;
     background-color: #03506f;
     color: #bbbbbb;
@@ -115,7 +115,7 @@ nav {
     height: 60rem;
 }
 
-#info img{
+#info #personal{
     float: left;
     margin: 2.25% 5%;
     border-radius: 100%;
@@ -135,15 +135,28 @@ nav {
     margin-bottom: 1rem;
 }
 
+.gif2 {
+    background-image: url("./image/decimal.gif");
+    min-height: 25rem;
+}
+
 #education {
     background-color: white;
     height: 50rem;
 }
 
-.gif2 {
-    background-image: url("./image/decimal.gif");
-    min-height: 25rem;
+#education #campus {
+    width: 40%;
+    padding-top: calc(1500/998);
+    float: left;
+    margin: 2.25% 5%;
 }
+
+#education #campus:hover{
+    border: 5px solid white;
+    margin: calc(2.25% - 5px) calc(5% - 5px);
+}
+
 
 @media only screen and (max-width:600px){
     #about_me #gif {
@@ -171,7 +184,7 @@ nav {
         font-size: 2rem;
     }
 
-    #info img {
+    #info #personal {
         float: none;
         margin-top: 2rem;
     }
@@ -180,5 +193,38 @@ nav {
         margin: 2rem 1rem;
         font-size: 1rem;
     }
+
+    #education #campus {
+        width: 80%;
+        float: none;
+    }
 }
 
+@media only screen and (min-width: 1600px){
+    .logo h1 {
+        width: 150px;
+        font-size: 3rem;
+    }
+
+    .topnav-right a {
+        width: 300px;
+        font-size: 3rem;
+    }
+
+    .topnav-right a:hover {
+        width: 310px;
+        padding: 40px 25px;
+    }
+
+    #info ul {
+        font-size: 3rem;
+    }
+
+    #education #info{
+        height: 70rem;
+    }
+    #education #campus {
+        width: 30%;
+        margin: 1% 5%;
+    }
+}
