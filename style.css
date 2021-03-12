@@ -70,19 +70,79 @@ nav {
 }
 
 
-#about_me #gif{
-    float: left;
+.gif{
+    float: right;
     width: 100%;
     z-index: -1;
     top: 0;
-    background-image: url("./image/coding.gif");  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
-    min-height: 30rem;
+    min-height: 32rem;
     padding: 0;
     margin: 0;
+}
+
+.gif1 {
+    background-image: url("./image/coding.gif");  
+} 
+
+.gif #welcome {
+    font-family: Calibri;
+    margin-top: 14rem;
+    color: #ffe3d8;
+    text-align: center;
+    font-size: 5rem;
+    align-content: center;
+}
+
+#info{
+    top: 100px;
+    text-align: center;
+    background-color: #212121;
+}
+
+#info h1{
+    font-family: Calibri;
+    color: #0d7377;
+    font-weight: bolder;
+    font-size: 4rem;
+    margin: 0;
+}
+
+#info{
+    height: 60rem;
+}
+
+#info img{
+    float: left;
+    margin: 2.25% 5%;
+    border-radius: 100%;
+    height: 12em;
+    width: 10em;
+}
+
+#info ul {
+    color: white;
+    margin-left: 20rem;
+    text-align: left;
+    font-size: 2rem;
+
+}
+
+#info ul li {
+    margin-bottom: 1rem;
+}
+
+#education {
+    background-color: white;
+    height: 50rem;
+}
+
+.gif2 {
+    background-image: url("./image/decimal.gif");
+    min-height: 25rem;
 }
 
 @media only screen and (max-width:600px){
@@ -90,33 +150,35 @@ nav {
         height: 25rem;
     }
     
-    .logo{
+    .logo {
         margin-right: 0%;
     }
 
-    .topnav-right a{
+    .topnav-right a {
         padding: 20px;
     }
 
-    .topnav-right a:hover, a:active{
+    .topnav-right a:hover, a:active {
         padding: 20px 10px;
     }
-}
 
-#info{
-    height: 1000px;
-    text-align: center;
-}
+    #info {
+        justify-content: center;
+        height: 68rem;
+    }
 
-#info h1{
-    font-style: italic;
-}
+    #info h1 {
+        font-size: 2rem;
+    }
 
-#info img{
-    float: left;
-    margin: 0 5%;
-    border-radius: 100%;
-    height: 10em;
-    width: 8em;
+    #info img {
+        float: none;
+        margin-top: 2rem;
+    }
+
+    #info ul {
+        margin: 2rem 1rem;
+        font-size: 1rem;
+    }
 }
 
