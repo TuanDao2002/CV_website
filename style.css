@@ -142,7 +142,7 @@ nav {
 
 #education {
     background-color: white;
-    height: 50rem;
+    height: 55rem;
 }
 
 #education #campus {
@@ -157,6 +157,15 @@ nav {
     margin: calc(2.25% - 5px) calc(5% - 5px);
 }
 
+#education #info ul {
+    margin-left: 23rem;
+    margin-right: 0.5rem;
+}
+
+.gif3{
+    background-image: url("./image/programming.gif");
+    min-height: 25rem;
+}
 
 @media only screen and (max-width:600px){
     #about_me #gif {
@@ -192,6 +201,18 @@ nav {
     #info ul {
         margin: 2rem 1rem;
         font-size: 1rem;
+    }
+
+    .gif2, .gif3 {
+        min-height: 15rem;
+    }
+
+    #education {
+        height: 45rem;
+    }
+
+    #education #info ul {
+        margin-left: 0;
     }
 
     #education #campus {
