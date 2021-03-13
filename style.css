@@ -138,6 +138,7 @@ nav {
 #info ul li a {
     color: white;
     text-decoration: unset;
+    font-weight: bolder;
 }
 
 #info ul li a:hover {
@@ -158,17 +159,21 @@ nav {
     width: 40%;
     padding-top: calc(1500/998);
     float: left;
-    margin: 2.25% 5%;
+    margin: 1% 5%;
 }
 
 #education #campus:hover{
     border: 5px solid white;
-    margin: calc(2.25% - 5px) calc(5% - 5px);
+    margin: calc(1% - 5px) calc(5% - 5px);
 }
 
 #education #info ul {
-    margin-left: 23rem;
+    margin-left: 50%;
     margin-right: 0.5rem;
+}
+
+#education #info ul #future {
+    font-style: italic;
 }
 
 .gif3{
@@ -217,7 +222,7 @@ nav {
     }
 
     #education {
-        height: 45rem;
+        height: 50rem;
     }
 
     #education #info ul {
@@ -227,6 +232,21 @@ nav {
     #education #campus {
         width: 80%;
         float: none;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    #education{
+        height: 60rem;
+    }
+
+    #education #info ul {
+        margin-top: 0.5rem;
+        margin-right: 0;
+    }
+
+    #education #info ul li {
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -256,5 +276,13 @@ nav {
     #education #campus {
         width: 30%;
         margin: 1% 5%;
+    }
+
+    #education #info ul {
+        margin-top: 2rem;
+    }
+
+    #skills {
+        margin-top: 5rem;
     }
 }
