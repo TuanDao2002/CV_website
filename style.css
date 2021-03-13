@@ -181,6 +181,39 @@ nav {
     min-height: 25rem;
 }
 
+#skills #info h2 {
+    color: white;
+}
+
+
+#skills #info #coding_languages h3 {
+    color: white;
+    float: left;
+    margin: 2rem;
+}
+
+#skills #info #coding_languages #title {
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+#skills #info #coding_languages #group {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+#skills #info #coding_languages #group img {
+    width: 15%;
+    margin: 0 10rem;
+}
+
+#skills #info #coding_languages #group img:hover {
+    border: 5px solid #eeeeee;
+    width: calc(15% - 10px);
+}
 @media only screen and (max-width:600px){
     #about_me #gif {
         height: 25rem;
