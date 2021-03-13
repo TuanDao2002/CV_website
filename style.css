@@ -214,7 +214,7 @@ nav {
 
     .gif2, .gif3 {
         min-height: 15rem;
-        padding-top: calc(2/1);
+        padding-top: calc(1/4);
     }
 
     #education {
