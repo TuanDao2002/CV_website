@@ -206,7 +206,7 @@ nav {
     .gif2, .gif3 {
         min-height: 15rem;
         width: 26rem;
-        background-size: contain;
+        background-size: 26rem 15rem;
     }
 
     #education {
