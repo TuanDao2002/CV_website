@@ -135,6 +135,15 @@ nav {
     margin-bottom: 1rem;
 }
 
+#info ul li a {
+    color: white;
+    text-decoration: unset;
+}
+
+#info ul li a:hover {
+    color:#ff2e63;
+}
+
 .gif2 {
     background-image: url("./image/decimal.gif");
     min-height: 25rem;
