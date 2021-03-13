@@ -205,6 +205,7 @@ nav {
 
     .gif2, .gif3 {
         min-height: 15rem;
+        width: 5rem;
     }
 
     #education {
