@@ -186,7 +186,7 @@ nav {
 
     #info {
         justify-content: center;
-        /* height: 68rem; */
+        height: 68rem;
     }
 
     #info h1 {
@@ -205,6 +205,7 @@ nav {
 
     .gif2, .gif3 {
         min-height: 15rem;
+        background-size: contain;
     }
 
     #education {
