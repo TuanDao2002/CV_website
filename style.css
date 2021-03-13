@@ -101,6 +101,7 @@ nav {
     top: 100px;
     text-align: center;
     background-color: #212121;
+    height: 60rem;
 }
 
 #info h1{
@@ -109,10 +110,6 @@ nav {
     font-weight: bolder;
     font-size: 4rem;
     margin: 0;
-}
-
-#info{
-    height: 60rem;
 }
 
 #info #personal{
@@ -128,7 +125,6 @@ nav {
     margin-left: 20rem;
     text-align: left;
     font-size: 2rem;
-
 }
 
 #info ul li {
@@ -151,7 +147,6 @@ nav {
 }
 
 #education {
-    background-color: white;
     height: 55rem;
 }
 
@@ -181,20 +176,24 @@ nav {
     min-height: 25rem;
 }
 
+#skills #info{
+    background-color: #212121;
+    height: 68rem;
+}
+
 #skills #info h2 {
     color: white;
 }
 
-
 #skills #info #coding_languages h3 {
     color: white;
-    float: left;
     margin: 2rem;
 }
 
 #skills #info #coding_languages #title {
   height: 3rem;
   margin-bottom: 2rem;
+  font-size: 2rem;
 }
 
 #skills #info #coding_languages #group {
@@ -202,18 +201,19 @@ nav {
     justify-content: space-evenly;
     align-content: center;
     width: 100%;
-    background-color: #eeeeee;
 }
 
 #skills #info #coding_languages #group img {
     width: 15%;
+    border-radius: 100%;
 }
 
 #skills #info #coding_languages #group img:hover {
-    border: 5px solid #eeeeee;
-    width: calc(15% - 10px);
+    border: 10px solid transparent;
+    width: calc(15% - 20px);
 }
-@media only screen and (max-width:600px){
+
+@media only screen and (max-width:700px){
     #about_me #gif {
         height: 25rem;
     }
@@ -223,11 +223,11 @@ nav {
     }
 
     .topnav-right a {
-        padding: 20px;
+        padding: 10px;
     }
 
     .topnav-right a:hover, a:active {
-        padding: 20px 10px;
+        padding: 10px 10px;
     }
 
     #info {
@@ -264,6 +264,22 @@ nav {
     #education #campus {
         width: 80%;
         float: none;
+    }
+
+    #skills #info #coding_languages h3 {
+       float: none;
+    }
+
+    #skills #info #coding_languages #title {
+        margin-bottom: 6rem;
+    }
+
+    #skills #info #coding_languages #group img {
+        width: 30%;
+    }
+
+    #skills #info #coding_languages #group img:hover {
+        width: calc(30% - 15px);
     }
 }
 
@@ -317,5 +333,17 @@ nav {
 
     #skills {
         margin-top: 5rem;
+    }
+
+    #skills #info {
+        height: 80rem;
+    }
+
+    #skills #info h2 {
+        font-size: 3rem;
+    }
+
+    #skills #info #coding_languages #title {
+        font-size: 4rem;
     }
 }
