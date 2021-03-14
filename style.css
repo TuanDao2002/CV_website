@@ -380,6 +380,10 @@ nav {
         height: 80rem;
     }
 
+    #skills #info h1{
+        margin-top: 10rem;
+    }
+
     #skills #info h2 {
         font-size: 3rem;
     }
@@ -387,4 +391,5 @@ nav {
     #skills #info #coding_languages #title {
         font-size: 4rem;
     }
+
 }
