@@ -49,6 +49,7 @@ nav {
 }
 
 .topnav-right a {
+    align-self: center;
     width: 100px;
     font-family: sans-serif;
     font-weight: 700;
@@ -176,9 +177,13 @@ nav {
     min-height: 25rem;
 }
 
+#skills {
+    height: 90rem;
+}
+
 #skills #info{
     background-color: #212121;
-    height: 68rem;
+    height: 90rem;
 }
 
 #skills #info h2 {
@@ -196,24 +201,36 @@ nav {
   font-size: 2rem;
 }
 
-#skills #info #coding_languages #group {
+#skills #info #coding_languages .group {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     width: 100%;
 }
 
-#skills #info #coding_languages #group img {
+#skills #info #coding_languages .group img {
     width: 15%;
     border-radius: 100%;
 }
 
-#skills #info #coding_languages #group img:hover {
+#skills #info #coding_languages .group img:hover {
     border: 10px solid transparent;
     width: calc(15% - 20px);
 }
 
-@media only screen and (max-width:700px){
+
+#skills #info #coding_languages .group2 {
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+
+#skills #info #coding_languages .group2 img {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+@media only screen and (max-width:600px){
     #about_me #gif {
         height: 25rem;
     }
@@ -223,11 +240,11 @@ nav {
     }
 
     .topnav-right a {
-        padding: 10px;
+        padding: 13px;
     }
 
     .topnav-right a:hover, a:active {
-        padding: 10px 10px;
+        padding: 13px 0px;
     }
 
     #info {
@@ -254,7 +271,7 @@ nav {
     }
 
     #education {
-        height: 50rem;
+        height: 55rem;
     }
 
     #education #info ul {
@@ -274,17 +291,40 @@ nav {
         margin-bottom: 6rem;
     }
 
-    #skills #info #coding_languages #group img {
+    #skills #info #coding_languages .group img {
         width: 30%;
     }
 
-    #skills #info #coding_languages #group img:hover {
+    #skills #info #coding_languages .group img:hover {
         width: calc(30% - 15px);
+    }
+
+    #skills #info #coding_languages .group2 {
+        margin-top: 4rem;
+    }
+
+    #skills #info #coding_languages .group2 img {
+        margin-left: 3%;
+        margin-right: 3%;
     }
 }
 
-@media only screen and (min-width: 700px){
-    #education{
+@media only screen and (min-width: 300px) and (max-width: 530px){
+    #education {
+        height: 50rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px){
+    .logo {
+        margin-right: 15%;
+    }
+
+    #info{
+        height: 60rem;
+    }
+
+    #education {
         height: 60rem;
     }
 
@@ -294,7 +334,7 @@ nav {
     }
 
     #education #info ul li {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0rem;
     }
 }
 
@@ -305,6 +345,7 @@ nav {
     }
 
     .topnav-right a {
+        align-self: center;
         width: 300px;
         font-size: 3rem;
     }
