@@ -178,27 +178,27 @@ nav {
 }
 
 #skills {
-    height: 90rem;
+    height: 120rem;
 }
 
 #skills #info{
     background-color: #212121;
-    height: 90rem;
+    height: 120rem;
 }
 
 #skills #info h2 {
     color: white;
 }
 
-#skills #info #coding_languages h3 {
+.title h3 {
     color: white;
     margin: 2rem;
 }
 
-#skills #info #coding_languages #title {
-  height: 3rem;
-  margin-bottom: 2rem;
-  font-size: 2rem;
+.title {
+    height: 3rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
 }
 
 #skills #info #coding_languages .group {
@@ -229,6 +229,8 @@ nav {
     margin-left: 8%;
     margin-right: 8%;
 }
+
+
 
 @media only screen and (max-width:600px){
     #about_me #gif {
@@ -283,12 +285,12 @@ nav {
         float: none;
     }
 
-    #skills #info #coding_languages h3 {
+    .title h3 {
        float: none;
     }
 
-    #skills #info #coding_languages #title {
-        margin-bottom: 6rem;
+    .title {
+        margin-bottom: 4rem;
     }
 
     #skills #info #coding_languages .group img {
@@ -300,7 +302,7 @@ nav {
     }
 
     #skills #info #coding_languages .group2 {
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
 
     #skills #info #coding_languages .group2 img {
@@ -377,7 +379,7 @@ nav {
     }
 
     #skills #info {
-        height: 80rem;
+        height: 120rem;
     }
 
     #skills #info h1{
@@ -388,8 +390,11 @@ nav {
         font-size: 3rem;
     }
 
-    #skills #info #coding_languages #title {
+    .title {
         font-size: 4rem;
     }
 
+    #skills #info #coding_languages .group1 {
+        margin-top: 6rem;
+    }
 }
