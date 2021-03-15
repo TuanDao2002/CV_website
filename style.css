@@ -156,12 +156,12 @@ nav {
     width: 40%;
     padding-top: calc(1500/998);
     float: left;
-    margin: 1% 5%;
+    margin: 2.5% 5%;
 }
 
 #education #campus:hover{
     border: 5px solid white;
-    margin: calc(1% - 5px) calc(5% - 5px);
+    margin: calc(2.5% - 5px) calc(5% - 5px);
 }
 
 #education #info ul {
@@ -181,6 +181,10 @@ nav {
 #skills #info{
     background-color: #212121;
     height: 120rem;
+}
+
+#skills #info h1 {
+    margin-top: 3rem;
 }
 
 #skills #info h2 {
@@ -273,6 +277,15 @@ nav {
 
 a{
     text-decoration: none;
+}
+
+.gif4 {
+    background-image: url("./image/cpu.gif");
+    min-height: 25rem;
+}
+
+#experiences #info h2 {
+    color: white;
 }
 
 @media only screen and (max-width:600px){
