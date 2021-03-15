@@ -184,7 +184,7 @@ nav {
 
 #skills #info{
     background-color: #212121;
-    height: 120rem;
+    height: 150rem;
 }
 
 #skills #info h2 {
@@ -233,30 +233,28 @@ nav {
 
 .container {
     position: relative;
-    width: 50%;
+    width: 30%;
+    margin-left: 15%;
 }
 
 .cover {
     opacity: 1;
     display: block;
-    width: 50%;
-    top: 0;
+    width: 100%;
+    /* height: auto; */
     transition: .5s ease;
     backface-visibility: hidden;
-    transform: translate(20rem, 0%);
-    -ms-transform: translate(50%, 0%);
 }
 
 .hidden {
-    width: 25%;
-    height: 180px;
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 0rem;
-    left: 20rem;
-    transform: translate(50%, 50%);
-    -ms-transform: translate(40px, 40px);
+    top: 40%;
+    left: 20%;
+    width: 60%;
+    /* transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%); */
     text-align: center;
 }
 
@@ -271,10 +269,10 @@ nav {
 .redirect {
     background-color: #ff2e63;
     color: #252a34;
-    font-size: 100%;
     font-weight: 800;
-    padding: 40% 32px;
-  }
+    font-size: 100%;
+    padding: 16px 32px;
+}
 
 a{
     text-decoration: none;
@@ -335,10 +333,7 @@ a{
 
     .title h3 {
        float: none;
-    }
-
-    .title {
-        margin-bottom: 4rem;
+       margin-top: 1rem;
     }
 
     #skills #info #coding_languages .group img {
@@ -349,6 +344,11 @@ a{
         width: calc(30% - 15px);
     }
 
+
+    #skills #info #coding_languages .group1 {
+        margin-top: 5rem;
+    }
+
     #skills #info #coding_languages .group2 {
         margin-top: 3rem;
     }
@@ -356,6 +356,15 @@ a{
     #skills #info #coding_languages .group2 img {
         margin-left: 3%;
         margin-right: 3%;
+    }
+
+    .redirect {
+        font-size: 8px;
+        padding: 8px 8px;
+    }
+
+    .title {
+        margin-bottom: 2rem;
     }
 }
 
@@ -385,6 +394,10 @@ a{
 
     #education #info ul li {
         margin-bottom: 0rem;
+    }
+
+    .redirect {
+        font-size: 90%;
     }
 }
 
@@ -427,7 +440,7 @@ a{
     }
 
     #skills #info {
-        height: 120rem;
+        height: 200rem;
     }
 
     #skills #info h1{
@@ -440,10 +453,16 @@ a{
 
     .title {
         font-size: 4rem;
+        margin-bottom: 4rem;
     }
 
     #skills #info #coding_languages .group1 {
         margin-top: 6rem;
+    }
+
+    .redirect {
+        font-size: 200%;
+        padding: 32px 64px;
     }
 }
 
