@@ -285,36 +285,44 @@ a{
 }
 
 #experiences #info {
-    height: 70rem;
+    height: 65rem;
 }
 
 .transition {
     width: 50%;
     margin-left: 25%;
+    transition: all 1.5s;
 }
 
 .transition img {
+    display: block;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: -5%;
+    transition: all 1.5s;
 }
 
 .transition .down {
-    display: none;
-}
-
-.transition:hover .down{
-    display: block;
     padding: 2%;
     font-size: large;
     background-color: #b80431;
+    display: none;
 }
 
-.down:hover .tab{
-    text-decoration: underline;
-}
-
-.transition:hover .down a {
+.transition .down #text {
     color: white;
+}
+
+.transition:hover img{
+    margin-bottom: 0;
+}
+
+.transition:hover .down {
+    display: block;
+    cursor: pointer;
+}
+
+.transition .down:hover #text{
+    font-weight: bold;
 }
 
 @media only screen and (max-width:600px){
@@ -421,7 +429,7 @@ a{
     }
     
     #experiences #info {
-        height: 35rem;
+        height: 36rem;
     }    
 }
 
@@ -435,7 +443,7 @@ a{
     }    
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1000px){
+@media only screen and (min-width: 601px) and (max-width: 1025px){
     .logo {
         margin-right: 15%;
     }
@@ -458,11 +466,15 @@ a{
     }
 
     #skills #info {
-        height: 90rem;
+        height: 95rem;
     }    
 
     .redirect {
         font-size: 90%;
+    }
+
+    #experiences #info {
+        height: 55rem;
     }
 }
 
@@ -531,7 +543,7 @@ a{
     }
 
     #experiences #info {
-        height: 90rem;
+        height: 95rem;
     }
 
     #experiences #info h2 {
@@ -543,8 +555,8 @@ a{
         margin-left: 20%;
     }    
 
-    .transition:hover .down{
-        font-size: larger;
+    .transition .down #text{
+        font-size: 2rem;
     }
 }
 
