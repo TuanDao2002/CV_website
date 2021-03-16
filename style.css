@@ -408,7 +408,11 @@ a{
     }
 
     #skills #info {
-        height: 65rem;
+        height: 55rem;
+    }
+
+    .gif4 {
+        min-height: 15rem;
     }
 
     .transition {
@@ -416,12 +420,19 @@ a{
         margin-left: 10%;
     }
     
+    #experiences #info {
+        height: 35rem;
+    }    
 }
 
 @media only screen and (min-width: 300px) and (max-width: 530px){
     #education {
         height: 50rem;
     }
+
+    #skills #info {
+        height: 65rem;
+    }    
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1000px){
