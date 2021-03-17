@@ -331,7 +331,7 @@ a{
 }
 
 footer {
-    height: 5rem;
+    height: 6rem;
     background-color: #00adb5;
 }
 
@@ -339,6 +339,10 @@ footer h2 {
     margin-top:0;
     text-align: center;
     color: #eeeeee;
+}
+
+footer h1 {
+    text-align: center;
 }
 
 i.fab.fa-facebood {
