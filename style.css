@@ -215,8 +215,7 @@ nav {
 }
 
 #skills #info #coding_languages .group img:hover {
-    border: 10px solid transparent;
-    width: calc(15% - 20px);
+    transform: scale(0.9);
 }
 
 
