@@ -294,9 +294,10 @@ a{
     transition: all 1.5s;
 }
 
-.transition img {
+.transition embed {
     display: block;
     width: 100%;
+    height: 25rem;
     margin-bottom: -5%;
     transition: all 1.5s;
 }
@@ -312,7 +313,7 @@ a{
     color: white;
 }
 
-.transition:hover img{
+.transition:hover embed {
     margin-bottom: 0;
 }
 
@@ -429,8 +430,17 @@ a{
     }
     
     #experiences #info {
-        height: 36rem;
+        height: 50rem;
     }    
+
+    .transition {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .transition embed {
+        height: 20rem;
+    }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 530px){
@@ -474,7 +484,7 @@ a{
     }
 
     #experiences #info {
-        height: 55rem;
+        height: 63rem;
     }
 }
 
@@ -543,7 +553,7 @@ a{
     }
 
     #experiences #info {
-        height: 95rem;
+        height: 90rem;
     }
 
     #experiences #info h2 {
