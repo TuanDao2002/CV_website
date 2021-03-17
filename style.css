@@ -289,15 +289,15 @@ a{
 }
 
 .transition {
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     transition: all 1.5s;
 }
 
 .transition embed {
     display: block;
     width: 100%;
-    height: 27rem;
+    height: 25rem;
     margin-bottom: -5%;
     transition: all 1.5s;
 }
@@ -319,11 +319,30 @@ a{
 
 .transition:hover .down {
     display: block;
-    cursor: pointer;
 }
 
 .transition .down:hover #text{
     font-weight: bold;
+    cursor: pointer;
+}
+
+.transition .down a, a:hover{
+    cursor: pointer;
+}
+
+footer {
+    height: 5rem;
+    background-color: #00adb5;
+}
+
+footer h2 {
+    margin-top:0;
+    text-align: center;
+    color: #eeeeee;
+}
+
+i.fab.fa-facebood {
+    font-size: 60px;
 }
 
 @media only screen and (max-width:600px){
@@ -558,6 +577,10 @@ a{
 
     #experiences #info h2 {
         font-size: 4rem;
+    }
+
+    .transition embed {
+        height: 40rem;
     }
 
     .transition {
