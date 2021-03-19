@@ -135,7 +135,6 @@ nav {
 
 #info ul li a {
     color: white;
-    text-decoration: unset;
     font-weight: bolder;
 }
 
@@ -346,19 +345,23 @@ footer #icon {
     text-align: center;
 }
 
+footer #icon h1 a i {
+    color: rgb(3, 3, 117);
+}
+
 footer #icon h1 {
     margin: 0 10px;
     display: inline;
 }
 
-i.fab{
+i.fab {
     font-size: 40px;
+    text-decoration: none;
 }
 
 i.fab:hover {
     transform: scale(1.25);
 }
-
 
 @media only screen and (max-width:600px){
     #about_me #gif {
