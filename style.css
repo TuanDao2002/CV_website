@@ -343,24 +343,18 @@ footer h2 {
 }
 
 footer #icon {
-    text-align: center;
+    background-color: #00adb5;
+    justify-content: center;
+    display: flex;
 }
 
-footer #icon h1 a i {
-    color: rgb(3, 3, 117);
-}
-
-footer #icon h1 {
-    margin: 0 10px;
-    display: inline;
-}
-
-footer #icon h1 a img {
+footer #icon a img {
     width: 50px;
-    text-decoration: none;
+    height: 50px;
+    margin: 0 10px;
 }
 
-i.fab:hover {
+footer #icon img:hover {
     transform: scale(1.25);
     cursor: pointer;
 }
@@ -622,19 +616,17 @@ i.fab:hover {
     }
 
     footer {
-        height: 16rem;
+        height: 14rem;
     }
     
     footer h2 {
         font-size: 4rem;
     }
     
-    footer #icon h1 {
+    footer #icon a img {
+        width: 80px;
+        height: 80px;
         margin: 0 20px;
-    }
-    
-    i.fab{
-        font-size: 80px;
     }
 }
 
