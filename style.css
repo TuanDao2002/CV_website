@@ -269,7 +269,7 @@ nav {
     padding: 16px 32px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -283,7 +283,7 @@ a{
 }
 
 #experiences #info {
-    height: 65rem;
+    height: 70rem;
 }
 
 .transition {
@@ -292,12 +292,13 @@ a{
     transition: all 1.5s;
 }
 
-.transition embed {
+.transition .top {
     display: block;
     width: 100%;
-    height: 25rem;
+    height: 27.5rem;
     margin-bottom: -5%;
     transition: all 1.5s;
+    padding-top: calc(1877 / 845);
 }
 
 .transition .down {
@@ -311,7 +312,7 @@ a{
     color: white;
 }
 
-.transition:hover embed {
+.transition:hover .top {
     margin-bottom: 0;
 }
 
@@ -361,6 +362,7 @@ i.fab {
 
 i.fab:hover {
     transform: scale(1.25);
+    cursor: pointer;
 }
 
 @media only screen and (max-width:600px){
@@ -423,13 +425,7 @@ i.fab:hover {
 
     #skills #info #coding_languages .group img {
         width: 30%;
-        height: 30%;
     }
-
-    #skills #info #coding_languages .group img:hover {
-        width: calc(30% - 15px);
-    }
-
 
     #skills #info #coding_languages .group1 {
         margin-top: 5rem;
@@ -444,43 +440,39 @@ i.fab:hover {
         margin-right: 3%;
     }
 
+    #skills #info #tools .group .container {
+        width: 50%;
+        margin-left: 25%;
+    }
+
     .redirect {
-        font-size: 8px;
-        padding: 8px 8px;
+        font-size: 10px;
+        padding: 10px 10px;
     }
 
     .title {
         margin-bottom: 2rem;
     }
 
-    #skills #info {
-        height: 55rem;
-    }
-
     .gif4 {
         min-height: 15rem;
     }
-
-    .transition {
-        width: 80%;
-        margin-left: 10%;
-    }
     
     #experiences #info {
-        height: 50rem;
+        height: 40rem;
     }    
 
     .transition {
         width: 100%;
-        margin-left: 0%;
+        margin-left: 0;
     }
 
-    .transition embed {
-        height: 20rem;
+    .transition .top {
+        height: 10rem;
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 530px){
+@media only screen and (min-width: 300px) and (max-width: 530px) {
     #education {
         height: 50rem;
     }
@@ -490,7 +482,7 @@ i.fab:hover {
     }    
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1025px){
+@media only screen and (min-width: 601px) and (max-width: 1025px) {
     .logo {
         margin-right: 15%;
     }
@@ -513,19 +505,34 @@ i.fab:hover {
     }
 
     #skills #info {
-        height: 95rem;
+        height: 94rem;
     }    
 
+    #skills #info #coding_languages .group img {
+        width: 20%;
+    }
+
+    #skills #info #tools .group .container {
+        width: 30%;
+        margin-left: 35%;
+    }
+
     .redirect {
-        font-size: 90%;
+        font-size: 50%;
     }
 
     #experiences #info {
-        height: 63rem;
+        height: 66rem;
     }
 }
 
-@media only screen and (min-width: 1600px){
+@media only screen and (min-width: 920px) and (max-width: 1400px) {
+    #skills #info {
+        height: 100rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
     .logo h1 {
         width: 150px;
         font-size: 3rem;
@@ -597,7 +604,7 @@ i.fab:hover {
         font-size: 4rem;
     }
 
-    .transition embed {
+    .transition .top {
         height: 40rem;
     }
 
